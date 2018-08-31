@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
+    <Jar>obj\Debug\lp\1\jl\formsviewgroup.jar</Jar>
+    <Jar>obj\Debug\lp\4\jl\support-annotations.jar</Jar>
+    <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\1\jl\formsviewgroup.jar</Jar>
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\10\jl\bin\classes.jar</Jar>
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\11\jl\bin\classes.jar</Jar>
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\12\jl\bin\classes.jar</Jar>
@@ -10,7 +13,6 @@
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\16\jl\bin\classes.jar</Jar>
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\17\jl\bin\classes.jar</Jar>
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\18\jl\bin\classes.jar</Jar>
-    <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\2\jl\formsviewgroup.jar</Jar>
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\3\jl\bin\classes.jar</Jar>
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\4\jl\support-annotations.jar</Jar>
     <Jar>C:\BTS\BTS\BTS.Android\obj\Debug\lp\5\jl\bin\classes.jar</Jar>

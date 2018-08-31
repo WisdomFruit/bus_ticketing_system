@@ -3,7 +3,7 @@ C:\BTS\BTS\BTS\bin\Debug\netstandard2.0\BTS.dll
 C:\BTS\BTS\BTS\bin\Debug\netstandard2.0\BTS.pdb
 C:\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.csprojAssemblyReference.cache
 C:\BTS\BTS\BTS\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\BTS\BTS\BTS\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\BTS\BTS\BTS\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
 C:\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.csproj.CoreCompileInputs.cache
 C:\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfoInputs.cache
 C:\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfo.cs
