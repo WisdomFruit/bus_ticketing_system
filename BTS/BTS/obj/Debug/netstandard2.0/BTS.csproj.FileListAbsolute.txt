@@ -12,3 +12,45 @@ C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstanda
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\View\SelectBusView.xaml.g.cs
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\View\SelectSeatView.xaml.g.cs
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\View\CheckOutView.xaml.g.cs
+C:\bus_ticketing_system\BTS\BTS\bin\Debug\netstandard2.0\BTS.deps.json
+C:\bus_ticketing_system\BTS\BTS\bin\Debug\netstandard2.0\BTS.dll
+C:\bus_ticketing_system\BTS\BTS\bin\Debug\netstandard2.0\BTS.pdb
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\BTS.csprojAssemblyReference.cache
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\View\CheckOutView.xaml.g.cs
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\View\SelectBusView.xaml.g.cs
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\View\SelectSeatView.xaml.g.cs
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\BTS.csproj.CoreCompileInputs.cache
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfoInputs.cache
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfo.cs
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\BTS.dll
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\BTS.pdb
+C:\bts\BTS\BTS\bin\Debug\netstandard2.0\BTS.deps.json
+C:\bts\BTS\BTS\bin\Debug\netstandard2.0\BTS.dll
+C:\bts\BTS\BTS\bin\Debug\netstandard2.0\BTS.pdb
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\BTS.csprojAssemblyReference.cache
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\View\CheckOutView.xaml.g.cs
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\View\SelectBusView.xaml.g.cs
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\View\SelectSeatView.xaml.g.cs
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\BTS.csproj.CoreCompileInputs.cache
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfoInputs.cache
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfo.cs
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\BTS.dll
+C:\bts\BTS\BTS\obj\Debug\netstandard2.0\BTS.pdb
+C:\a\BTS\BTS\bin\Debug\netstandard2.0\BTS.deps.json
+C:\a\BTS\BTS\bin\Debug\netstandard2.0\BTS.dll
+C:\a\BTS\BTS\bin\Debug\netstandard2.0\BTS.pdb
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\View\CheckOutView.xaml.g.cs
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\View\SelectBusView.xaml.g.cs
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\View\SelectSeatView.xaml.g.cs
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\BTS.csproj.CoreCompileInputs.cache
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfoInputs.cache
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfo.cs
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\BTS.dll
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\BTS.pdb
+C:\a\BTS\BTS\obj\Debug\netstandard2.0\BTS.csprojAssemblyReference.cache

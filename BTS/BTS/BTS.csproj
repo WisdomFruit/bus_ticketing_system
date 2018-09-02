@@ -9,11 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Controller\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="View\SelectSeatView.xaml.cs">
       <DependentUpon>SelectSeatView.xaml</DependentUpon>
     </Compile>

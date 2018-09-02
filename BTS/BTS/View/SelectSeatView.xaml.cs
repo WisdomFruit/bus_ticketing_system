@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BTS.Controller;
+using BTS.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +14,12 @@ namespace BTS.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SelectSeatView : ContentPage
     {
+        BillController billController = new BillController();
+
         public SelectSeatView()
         {
             InitializeComponent();
+            List<Button> btnList = new List<Button>();
             int seat = 1;
             for (int row = 1; row < 12; row++)
             {
@@ -36,14 +41,25 @@ namespace BTS.View
                 }
             }
         }
+
         public void ButtonClicked(object sender, EventArgs e)
         {
+            
             Button button = (Button)sender;
             if (button.BackgroundColor == Color.FromHex("#C8E6C9"))
+            {
                 button.BackgroundColor = Color.FromHex("#4CAF50");
+                BillController.SetSeatCount(true);
+                BillController.SetSeatNumbersOn(button.Text);
+            }
             else
+            {
                 button.BackgroundColor = Color.FromHex("#C8E6C9");
+                BillController.SetSeatCount(false);
+                BillController.SetSeatNumbersOff(button.Text);
+            }
         }
+        BusController busController = new BusController();
         public void OnTapGestureRecognizerTapped(object sender, EventArgs args)
         {
             Navigation.PushAsync(new CheckOutView());

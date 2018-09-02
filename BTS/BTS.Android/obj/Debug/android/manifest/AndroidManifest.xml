@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="BTS.Android" android:theme="@android:style/Theme.Material.Light" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="BTS" android:theme="@style/MainTheme" android:name="md5389055c8935f17c39fd03df3bcc66c28.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="BTS" android:theme="@style/MainTheme" android:name="md5145bba9165723c1490cb3f39cb8f2cb3.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

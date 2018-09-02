@@ -24,20 +24,20 @@
                 <ColumnDefinition Width="2.5*"/>
             </Grid.ColumnDefinitions>
             <Label Text="BUS TYPE" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="busType" Text="Ordinary Bus" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="lblBusType" Text="" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <Label Text="PRICE" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="busPrice" Text="Php 250.00" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="lblBusPrice" Text="" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <Label Text="SCHEDULE" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="dateSchedule" Text="September 02, 2018" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="timeSchedule" Text="9:00 AM" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="lblDateSchedule" Text="" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="lblTimeSchedule" Text="" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <Label Text="SEATS" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <ScrollView Grid.Row="4" Grid.Column="1">
-                <Label x:Name="seatNames" Text="1 ,2, 3, 4, 5, 6, 7, 8, 9, 10" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+                <Label x:Name="lblSeatNumbers" Text="" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             </ScrollView>
             <Label Text="NUMBER OF SEATS" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="numberSeats" Text="10" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="lblNumberSeats" Text="" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <Label Text="TOTAL PRICE" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="totalPrice" Text="Php 2,500.00" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="lblTotalPrice" Text="" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
         </Grid>
         <RelativeLayout>
             <Image Source="okay_button.png" Aspect="AspectFit"
@@ -53,7 +53,7 @@
                              Constant=-116}">
                 <RelativeLayout.GestureRecognizers>
                     <TapGestureRecognizer 
-                                 
+                                 Tapped="TapGestureRecognizer_Tapped"
                                 NumberOfTapsRequired="1" />
                 </RelativeLayout.GestureRecognizers>
             </Image>
