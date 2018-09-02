@@ -9,8 +9,10 @@
 
     <StackLayout Padding="10">
         <Image Source="checkout.png" Aspect="AspectFit" HorizontalOptions="Center"/>
-        <Grid Padding="20,45,20,45" RowSpacing="20" ColumnSpacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+        <Grid Padding="10" RowSpacing="20" ColumnSpacing="20" VerticalOptions="Center" HorizontalOptions="Center">
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -23,24 +25,27 @@
                 <ColumnDefinition Width="2.5*"/>
                 <ColumnDefinition Width="2.5*"/>
             </Grid.ColumnDefinitions>
-            <Label Text="BUS TYPE" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="busType" Text="Ordinary Bus" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label Text="PRICE" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="busPrice" Text="Php 250.00" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label Text="SCHEDULE" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="dateSchedule" Text="September 02, 2018" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="timeSchedule" Text="9:00 AM" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label Text="SEATS" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <ScrollView Grid.Row="4" Grid.Column="1">
+            <Label x:Name="dateNow" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="13"/>
+            <Label x:Name="timeNow" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="End" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="13"/>
+            <Label Text="BUS TYPE" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="busType" Text="Ordinary Bus" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label Text="PRICE" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="busPrice" Text="Php 250.00" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label Text="SCHEDULE" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="dateSchedule" Text="September 02, 2018" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="timeSchedule" Text="9:00 AM" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label Text="SEATS" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <ScrollView Grid.Row="5" Grid.Column="1">
                 <Label x:Name="seatNames" Text="1 ,2, 3, 4, 5, 6, 7, 8, 9, 10" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             </ScrollView>
-            <Label Text="NUMBER OF SEATS" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="numberSeats" Text="10" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label Text="TOTAL PRICE" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="totalPrice" Text="Php 2,500.00" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label Text="NUMBER OF SEATS" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="numberSeats" Text="10" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label Text="TOTAL PRICE" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="totalPrice" Text="Php 2,500.00" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label x:Name="billNote" Text ="Note: Php 20 penalty charge is added" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Red" FontSize="13"/>
         </Grid>
         <RelativeLayout>
-            <Image Source="okay_button.png" Aspect="AspectFit"
+            <Image x:Name="checkoutButton" Source="okay_button.png" Aspect="AspectFit"
     RelativeLayout.XConstraint =
       "{ConstraintExpression Type=RelativeToParent,
                              Property=Width,
@@ -50,10 +55,10 @@
       "{ConstraintExpression Type=RelativeToParent,
                              Property=Height,
                              Factor=0.5,
-                             Constant=-116}">
+                             Constant=-105}">
                 <RelativeLayout.GestureRecognizers>
                     <TapGestureRecognizer 
-                                 
+                                 Tapped="OnTapGestureRecognizerTapped" 
                                 NumberOfTapsRequired="1" />
                 </RelativeLayout.GestureRecognizers>
             </Image>

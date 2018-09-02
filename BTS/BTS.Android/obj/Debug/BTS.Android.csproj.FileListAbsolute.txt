@@ -106,6 +106,7 @@ C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\r
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\res\drawable-xxhdpi\seat.png
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\res\drawable-xxhdpi\checkout.png
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\res\drawable-xxhdpi\okay_button.png
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\res\drawable-xxhdpi\cancel_button.png
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\bin\Debug\BTS.Android.dll
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\linksrc\BTS.pdb
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\linksrc\BTS.Android.dll.mdb

@@ -21,7 +21,7 @@
                 <ColumnDefinition Width="2.5*"/>
             </Grid.ColumnDefinitions>
             <Label Text="BUS TYPE" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Picker Title="Select Bus Type" Grid.Row="0" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold">
+            <Picker x:Name="typePicker"  Title="Select Bus Type" Grid.Row="0" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold">
                 <Picker.Items>
                     <x:String>Ordinary Bus</x:String>
                     <x:String>Airconditioned Bus</x:String>
@@ -29,9 +29,9 @@
                 </Picker.Items>
             </Picker>
             <Label Text="DATE SCHEDULE" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <DatePicker Format="MMMM dd, yyyy"  MinimumDate="{x:Static system:DateTime.Today}"  Date="{x:Static system:DateTime.Today}"  Grid.Row="1" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <DatePicker x:Name="datePicker" Format="MMMM dd, yyyy"  MinimumDate="{x:Static system:DateTime.Today}"  Date="{x:Static system:DateTime.Today}"  Grid.Row="1" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <Label Text="TIME SCHEDULE" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Picker Title="Time Schedule" Grid.Row="2" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold">
+            <Picker x:Name="timePicker" Title="Time Schedule" Grid.Row="2" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold">
                 <Picker.Items>
                     <x:String>5:30 AM</x:String>
                     <x:String>8:00 AM</x:String>
