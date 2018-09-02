@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:BTS"
+             x:Class="BTS.View.SelectBusView"
+             Title="SELECT BUS DETAILS">
+
+
+    <StackLayout Padding="10">
+        <Image Source="bus_select.png" Aspect="AspectFit" HorizontalOptions="Center"/>
+
+        <Grid Padding="15,80,15,100" RowSpacing="30" VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="2.5*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="BUS TYPE" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Picker Title="Select Bus Type" Grid.Row="0" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold">
+                <Picker.Items>
+                    <x:String>Ordinary Bus</x:String>
+                    <x:String>Airconditioned Bus</x:String>
+                    <x:String>Deluxe Bus</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="DATE SCHEDULE" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <DatePicker Format="MMMM dd, yyyy"  MinimumDate="{x:Static system:DateTime.Today}"  Date="{x:Static system:DateTime.Today}"  Grid.Row="1" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Label Text="TIME SCHEDULE" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <Picker Title="Time Schedule" Grid.Row="2" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold">
+                <Picker.Items>
+                    <x:String>5:30 AM</x:String>
+                    <x:String>8:00 AM</x:String>
+                    <x:String>10:30 AM</x:String>
+                    <x:String>2:00 PM</x:String>
+                    <x:String>6:30 PM</x:String>
+                    <x:String>9:00 PM</x:String>
+                    <x:String>11:30 PM</x:String>
+                </Picker.Items>
+            </Picker>
+        </Grid>
+        <RelativeLayout>
+            <Image Source="next_button.png" Aspect="AspectFit"
+    RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=100}"
+    RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0.5,
+                             Constant=-116}">
+            <RelativeLayout.GestureRecognizers>
+                <TapGestureRecognizer 
+                                Tapped="OnTapGestureRecognizerTapped" 
+                                NumberOfTapsRequired="1" />
+            </RelativeLayout.GestureRecognizers>
+            </Image>
+        </RelativeLayout>
+        
+    </StackLayout>
+    
+</ContentPage>

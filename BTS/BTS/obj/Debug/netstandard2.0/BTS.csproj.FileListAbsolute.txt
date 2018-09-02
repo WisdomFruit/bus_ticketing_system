@@ -1,0 +1,14 @@
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\bin\Debug\netstandard2.0\BTS.deps.json
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\bin\Debug\netstandard2.0\BTS.dll
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\bin\Debug\netstandard2.0\BTS.pdb
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfoInputs.cache
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.AssemblyInfo.cs
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.dll
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\BTS.pdb
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\View\SelectBusView.xaml.g.cs
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\View\SelectSeatView.xaml.g.cs
+C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstandard2.0\View\CheckOutView.xaml.g.cs

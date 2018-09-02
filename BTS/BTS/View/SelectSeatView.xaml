@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="BTS.View.SelectSeatView"
+            Title="SELECT SEAT">
+    
+    <StackLayout Padding="10">
+        <Image Source="seat_select.png" Aspect="AspectFit" HorizontalOptions="Center"/>
+        <Grid x:Name="SeatGrid" RowSpacing="3" ColumnSpacing="3" HorizontalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="35"/>
+            </Grid.ColumnDefinitions>
+            <Button Text="Driver" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" TextColor="White" BackgroundColor="#F44336" FontSize="11" FontAttributes="Bold" IsEnabled="False"/>
+            <Button Text="Door" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2"  TextColor="White" BackgroundColor="#FF5722" FontSize="11" IsEnabled="False"/>
+            <Button Text="Door" Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="2"  TextColor="White" BackgroundColor="#FF5722" FontSize="10" IsEnabled="False"/>
+        </Grid>
+
+        <RelativeLayout>
+            <Image Source="next_button.png" Aspect="AspectFit"
+    RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=100}"
+    RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0.5,
+                             Constant=-140}">
+                <RelativeLayout.GestureRecognizers>
+                    <TapGestureRecognizer   
+                                Tapped="OnTapGestureRecognizerTapped" 
+                                NumberOfTapsRequired="1" />
+                </RelativeLayout.GestureRecognizers>
+            </Image>
+        </RelativeLayout>
+
+    </StackLayout>
+
+</ContentPage>
