@@ -108,5 +108,3 @@ C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\r
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\res\drawable-xxhdpi\okay_button.png
 C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS.Android\obj\Debug\res\drawable-xxhdpi\cancel_button.png
 C:\bus_ticketing_system\BTS\BTS.Android\obj\Debug\BTS.Android.csprojAssemblyReference.cache
-C:\bus_ticketing_system\BTS\BTS.Android\obj\Debug\BTS.Android.dll
-C:\bus_ticketing_system\BTS\BTS.Android\obj\Debug\BTS.Android.pdb
