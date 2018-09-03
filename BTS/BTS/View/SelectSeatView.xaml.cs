@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BTS.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace BTS.View
         public SelectSeatView()
         {
             InitializeComponent();
+            
             int seat = 1;
             for (int row = 1; row < 12; row++)
             {
@@ -24,7 +26,7 @@ namespace BTS.View
                     {
                         Button button = new Button();
                         button.Text = seat.ToString();
-                        button.FontSize = 10;
+                        button.FontSize = 8;
                         button.TextColor = Color.White;
                         button.Clicked += ButtonClicked;
                         button.BackgroundColor = Color.FromHex("#C8E6C9");
@@ -36,16 +38,28 @@ namespace BTS.View
                 }
             }
         }
+
         public void ButtonClicked(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             if (button.BackgroundColor == Color.FromHex("#C8E6C9"))
+            {
                 button.BackgroundColor = Color.FromHex("#4CAF50");
+                BillController.SetSeatCount(true);
+                BillController.SetSeatNumbersOn(button.Text);
+            }
+                
             else
+            {
                 button.BackgroundColor = Color.FromHex("#C8E6C9");
+                BillController.SetSeatCount(false);
+                BillController.SetSeatNumbersOff();
+            }
+                
         }
         public void OnTapGestureRecognizerTapped(object sender, EventArgs args)
         {
+            DisplayAlert("selected", BillController.GetSeatNumbers(),"okay");
             Navigation.PushAsync(new CheckOutView());
         }
     }

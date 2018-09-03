@@ -24,7 +24,16 @@ namespace BTS.View
             {
                 valid = busController.CheckTime(datePicker.Date, DateTime.Parse(timePicker.SelectedItem.ToString()));
                 if (valid)
+                {
+                    BusController.SetBusType(typePicker.SelectedItem.ToString());
+                    BusController.SetPrice(BusController.GetBusType());
+                    BusController.SetSeatCapacity(BusController.GetBusType());
+
+                    ScheduleController.SetDate(datePicker.Date);
+                    ScheduleController.SetTime(timePicker.SelectedItem.ToString());
                     Navigation.PushAsync(new SelectSeatView());
+                }
+                
                 else
                     DisplayAlert("Invalid", "Trip has already departed. Please pick other time.", "OK");
             }

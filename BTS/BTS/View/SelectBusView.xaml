@@ -29,7 +29,7 @@
                 </Picker.Items>
             </Picker>
             <Label Text="DATE SCHEDULE" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <DatePicker x:Name="datePicker" Format="MMMM dd, yyyy"  MinimumDate="{x:Static system:DateTime.Today}"  Date="{x:Static system:DateTime.Today}"  Grid.Row="1" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
+            <DatePicker x:Name="datePicker" Format="MMMM dd, yyyy"  MinimumDate="{x:Static system:DateTime.Today}"  Date="{x:Static system:DateTime.Today}"  Grid.Row="1" Grid.Column="1" TextColor="#0288D1" FontSize="13" FontAttributes="Bold"/>
             <Label Text="TIME SCHEDULE" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <Picker x:Name="timePicker" Title="Time Schedule" Grid.Row="2" Grid.Column="1" TextColor="#0288D1" FontSize="16" FontAttributes="Bold">
                 <Picker.Items>

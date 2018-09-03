@@ -15,6 +15,7 @@ C:\Users\Kevin\Documents\Mobile App Dev\Projects\BTS\BTS\BTS\obj\Debug\netstanda
 C:\bus_ticketing_system\BTS\BTS\bin\Debug\netstandard2.0\BTS.deps.json
 C:\bus_ticketing_system\BTS\BTS\bin\Debug\netstandard2.0\BTS.dll
 C:\bus_ticketing_system\BTS\BTS\bin\Debug\netstandard2.0\BTS.pdb
+C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\BTS.csprojAssemblyReference.cache
 C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\View\CheckOutView.xaml.g.cs
 C:\bus_ticketing_system\BTS\BTS\obj\Debug\netstandard2.0\View\SelectBusView.xaml.g.cs

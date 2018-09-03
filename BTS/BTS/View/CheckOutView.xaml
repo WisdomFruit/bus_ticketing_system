@@ -42,7 +42,7 @@
             <Label x:Name="numberSeats" Text="10" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <Label Text="TOTAL PRICE" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
             <Label x:Name="totalPrice" Text="Php 2,500.00" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#0288D1" FontSize="16" FontAttributes="Bold"/>
-            <Label x:Name="billNote" Text ="Note: Php 20 penalty charge is added" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Red" FontSize="13"/>
+            <Label x:Name="billNote" Text ="" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="Red" FontSize="13"/>
         </Grid>
         <RelativeLayout>
             <Image x:Name="checkoutButton" Source="okay_button.png" Aspect="AspectFit"
@@ -55,7 +55,7 @@
       "{ConstraintExpression Type=RelativeToParent,
                              Property=Height,
                              Factor=0.5,
-                             Constant=-105}">
+                             Constant=-130}">
                 <RelativeLayout.GestureRecognizers>
                     <TapGestureRecognizer 
                                  Tapped="OnTapGestureRecognizerTapped" 
