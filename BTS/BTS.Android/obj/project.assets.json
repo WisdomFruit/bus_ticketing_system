@@ -669,26 +669,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kevin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\Nico\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kevin\\Documents\\Mobile App Dev\\Projects\\BTS\\BTS\\BTS.Android\\BTS.Android.csproj",
+      "projectUniqueName": "C:\\bus_ticketing_system\\BTS\\BTS.Android\\BTS.Android.csproj",
       "projectName": "BTS.Android",
-      "projectPath": "C:\\Users\\Kevin\\Documents\\Mobile App Dev\\Projects\\BTS\\BTS\\BTS.Android\\BTS.Android.csproj",
-      "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kevin\\Documents\\Mobile App Dev\\Projects\\BTS\\BTS\\BTS.Android\\obj\\",
+      "projectPath": "C:\\bus_ticketing_system\\BTS\\BTS.Android\\BTS.Android.csproj",
+      "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+      "outputPath": "C:\\bus_ticketing_system\\BTS\\BTS.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid71"
@@ -700,8 +695,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "C:\\Users\\Kevin\\Documents\\Mobile App Dev\\Projects\\BTS\\BTS\\BTS\\BTS.csproj": {
-              "projectPath": "C:\\Users\\Kevin\\Documents\\Mobile App Dev\\Projects\\BTS\\BTS\\BTS\\BTS.csproj"
+            "C:\\bus_ticketing_system\\BTS\\BTS\\BTS.csproj": {
+              "projectPath": "C:\\bus_ticketing_system\\BTS\\BTS\\BTS.csproj"
             }
           }
         }
