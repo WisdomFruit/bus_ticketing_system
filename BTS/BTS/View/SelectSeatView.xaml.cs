@@ -59,7 +59,10 @@ namespace BTS.View
         }
         public void OnTapGestureRecognizerTapped(object sender, EventArgs args)
         {
-            DisplayAlert("selected", BillController.GetSeatNumbers(),"okay");
+            if (BillController.GetSeatCount() == 0)
+            {
+                BillController.SetSeatNumbersOn(BillController.GenerateRandomSeat());
+            }
             Navigation.PushAsync(new CheckOutView());
         }
     }

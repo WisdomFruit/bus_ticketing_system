@@ -8,6 +8,14 @@ namespace BTS
 {
     public class BillProvider
     {
+
+        public static string GenerateRandomSeat()
+        {
+            Random random = new Random();
+            int num = random.Next(0, 45);
+            Bill.Seats++;
+            return num.ToString();
+        }
         
         // Bill Setters
         public static void SetTotalSeats()
@@ -50,7 +58,10 @@ namespace BTS
         }
         public static void SetSeatNumbersOff()
         {
-            Bill.SeatNames = Bill.SeatNames.Remove(Bill.SeatNames.Length - 3);
+            if(Bill.Seats == 2)
+                Bill.SeatNames = Bill.SeatNames.Remove(Bill.SeatNames.Length - 2);
+            else
+                Bill.SeatNames = Bill.SeatNames.Remove(Bill.SeatNames.Length - 3);
         }
 
         // Bill Getters

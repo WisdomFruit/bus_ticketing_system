@@ -67,8 +67,20 @@ namespace BTS.View
                     checkoutButton.Source = "okay_button.png";
                 }
             }
-            
-                
+        }
+
+        protected async Task<bool> OnBackButtonPressedAsync()
+        {
+            while (BillController.GetSeatCount() != 0)
+            {
+                BillController.SetSeatCount(false);
+            }
+            while (!BillController.GetSeatNumbers().Equals(""))
+            {
+                BillController.SetSeatNumbersOff();
+            }
+            await Navigation.PopAsync();
+            return true;
         }
     }
 }
