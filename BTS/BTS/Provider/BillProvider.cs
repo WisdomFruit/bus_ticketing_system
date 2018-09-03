@@ -12,7 +12,7 @@ namespace BTS
         public static string GenerateRandomSeat()
         {
             Random random = new Random();
-            int num = random.Next(0, 45);
+            int num = random.Next(0, 44);
             Bill.Seats++;
             return num.ToString();
         }
